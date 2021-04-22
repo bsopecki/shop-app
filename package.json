@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/bsopecki/shop-app.git"
   },
+  "type": "module",
   "keywords": [
     "MERN",
     "stack",
