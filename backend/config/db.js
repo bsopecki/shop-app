@@ -1,4 +1,3 @@
-import { red } from 'colors'
 import mongoose from 'mongoose'
 
 const connectDB = async () => {

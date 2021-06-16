@@ -38,7 +38,7 @@ const orderSchema = mongoose.Schema({
         required: true,
         default: 0.0
     },
-    shipppingPrice: {
+    shippingPrice: {
         type: Number,
         required: true,
         default: 0.0
@@ -56,7 +56,7 @@ const orderSchema = mongoose.Schema({
     paidAt: {
         type: Date
     },
-    isSelivered: {
+    isDelivered: {
         type: Boolean,
         required: true,
         default: false
@@ -68,6 +68,6 @@ const orderSchema = mongoose.Schema({
     timestamps: true
 }),
 
-const Order = mongoose.model('User', orderSchema)
+const Order = mongoose.model('Order', orderSchema)
 
 export default Order
